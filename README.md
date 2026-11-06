@@ -22,15 +22,15 @@ The app needs macOS 12 or later. Open the DMG and drag Belter to Applications.
 
 | File | For |
 | --- | --- |
-| `belter-<version>-darwin-arm64.zip` | macOS, Apple silicon |
-| `belter-<version>-darwin-x64.zip` | macOS, Intel |
-| `belter-<version>-linux-arm64.tar.gz` | Linux, ARM 64-bit |
-| `belter-<version>-linux-x64.tar.gz` | Linux, x86 64-bit |
+| `belter-cli-<version>-macos-arm64.zip` | macOS, Apple silicon |
+| `belter-cli-<version>-macos-x64.zip` | macOS, Intel |
+| `belter-cli-<version>-linux-arm64.tar.gz` | Linux, ARM 64-bit |
+| `belter-cli-<version>-linux-x64.tar.gz` | Linux, x86 64-bit |
 
 On macOS:
 
 ```bash
-unzip belter-<version>-darwin-arm64.zip
+unzip belter-cli-<version>-macos-arm64.zip
 sudo mv belter /usr/local/bin/
 belter --help
 ```
@@ -38,7 +38,7 @@ belter --help
 On Linux:
 
 ```bash
-tar -xzf belter-<version>-linux-x64.tar.gz
+tar -xzf belter-cli-<version>-linux-x64.tar.gz
 sudo mv belter /usr/local/bin/
 belter --help
 ```
