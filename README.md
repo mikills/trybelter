@@ -13,8 +13,8 @@ Go to [Releases](https://github.com/mikills/trybelter/releases/latest) and pick 
 
 | File | For |
 | --- | --- |
-| `Belter-<version>-arm64.dmg` | Apple silicon Macs (M1 and later) |
-| `Belter-<version>-x64.dmg` | Intel Macs |
+| `belter-app-<version>-macos-arm64.dmg` | Apple silicon Macs (M1 and later) |
+| `belter-app-<version>-macos-x64.dmg` | Intel Macs |
 
 The app needs macOS 12 or later. Open the DMG and drag Belter to Applications.
 
